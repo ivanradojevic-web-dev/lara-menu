@@ -1,28 +1,27 @@
 ## Steps to reproduce
- 
-    ```shell
+
+```shell
     composer install
-    ```
+```
     
-    ```shell
+```shell
     npm install && npm run dev
-    ```
+```
 
-    ```shell
+```shell
     cp .env.example .env
-    ```
+```
 
-    ```shell
+```shell
     php artisan migrate
-    ```
+```
 
-        ```shell
+```shell
     php artisan db:seed
-    ```
+```
 ---
 ## Update exchange rates from API
 
-        ```shell
+```shell
     php artisan schedule:work
-    ```
-
+```
