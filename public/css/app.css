@@ -642,6 +642,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .font-semibold {
   font-weight: 600;
 }
+.italic {
+  font-style: italic;
+}
 .leading-none {
   line-height: 1;
 }
@@ -731,3 +734,4 @@ input[type=number] {
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
 }
+

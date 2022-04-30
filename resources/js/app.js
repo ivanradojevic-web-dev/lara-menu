@@ -110,6 +110,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 				.catch(function (error) {
 				 	console.log(error);
 				})
+			} else {
+				alert("Please enter a valid amount. The value of the currency 1 and more")
 			}
 		});
 	});
